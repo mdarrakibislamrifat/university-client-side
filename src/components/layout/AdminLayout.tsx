@@ -1,8 +1,12 @@
+import { Outlet } from "react-router-dom"
 
 
 const AdminLayout = () => {
     return (
-        <div>This is AdminLayout</div>
+        <div>
+            <h1>This is navbar</h1>
+            <Outlet />
+        </div>
     )
 }
 
